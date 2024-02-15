@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO App</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+   
+
+</head>
+<body>
+    <div class="container">
+        <h1>Today</h1>
+        <p id="date-el">testdatum</p>
+    </div>
+    <div class="todo-list, container">
+        <ol id="todo-ol">
+            <!-- <li>
+                <h2>Project daily stand-up</h2>
+                <p>Ik moet hierbij x en y doen.</p>
+                <div class="list-overlay">
+                    <button id="deleteListItem">
+                        <img src="./images/delete-icon.svg">
+                    </button>
+                </div>
+            </li> -->
+        </ol>
+    </div>
+    <div class="todo-overlay-outer" id="overlay">
+        <div class="todo-overlay">
+            <input id="input-task" type="text" placeholder="What do you need to do?">
+            <input id="input-notes" type="text" placeholder="Extra notes">
+            <button id="save-btn" class="save-btn">Save</button>
+        </div>
+        <div id="overlay-closing"></div>
+    </div>
+    <button type="button" id="add-btn">
+        <img src="./images/add-icon.svg">
+        Add new task
+    </button>
+
+    <script defer src="./scripts.js" type="module"></script>
+</body>
+</html> 
